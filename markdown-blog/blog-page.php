@@ -27,5 +27,6 @@ if (file_exists($page)) {
                 <?php echo renderMarkdown($markdown); ?>
         </div>
     </div>
+	<?php include('footer.php'); ?>
 </body>
 </html>
