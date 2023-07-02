@@ -25,7 +25,7 @@
     function addTitleHref($postContent, $slug) {
         // Make post title clickable (links to post slug)
         $firstLinePattern = '/^# (.*)(\r\n|\r|\n)$/m';
-        $replacement  = '# [${1}]('. $slug . ')${2}'; // # [title](slug)NEW_LINE
+        $replacement  = '# [${1}](/post/'. $slug . ')${2}'; // # [title](slug)NEW_LINE
         return preg_replace($firstLinePattern, $replacement, $postContent);
     }
 

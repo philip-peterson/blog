@@ -8,6 +8,6 @@
 ?>
     <div class="blog-post">
         <?php echo renderMarkdown($titleAndSummary); ?>
-        <a href="<?php echo $post['slug'] ?>">Read post</a>
+        <a href="/post/<?php echo $post['slug'] ?>">Read post</a>
     </div>
 <?php }?>
