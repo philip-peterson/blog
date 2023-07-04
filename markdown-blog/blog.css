@@ -6,19 +6,36 @@ html, body {
     background: #00427e;
 }
 
+figure > img {
+	width: 100%;
+}
+
+figure > figcaption {
+	text-align: center;
+	color: #555;
+	font-style: italic;
+}
+
 .footer {
 	display: flex;
 	justify-content: center;
 	margin-top: 1em;
 	color: white;
+	margin-bottom: 2em;
+	align-items: center;
 }
 
 .footer > a {
 	display: block;
+	padding: 1em;
 }
 
 .footer > a:link, .footer > a:visited {
 	color: #eee;
+}
+
+.footer > a:hover {
+	color: #fffd92;
 }
 
 .footer > .spacer {

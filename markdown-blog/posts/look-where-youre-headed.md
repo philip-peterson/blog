@@ -12,6 +12,6 @@ As humans, we want to know where we're going. But also, due to our psychology, w
 
 This insight is relevant to the workplace. If we know where we are going, we will go there, even if unwittingly. But if we don't know, we might look somewhere else and land ourselves in trouble by going somewhere else.
 
-The key for managers here is that even if your reports cannot be given any time specifically to attaining a goal, just having them know the direction alone, and knowing your team's goals, can get your organization closer to achieving them.
+And for managers, if your reports cannot be given any time specifically to attaining a goal, just having them know the direction alone, and knowing your team's goals, can get your organization closer to achieving them.
 
-Follow this blog for more technology insights in business through [RSS](http://blog.ironmagma.com/rss.xml).
+Follow this blog for more technology insights in business through [RSS](http://blog.quinefoundation.com/rss.xml).

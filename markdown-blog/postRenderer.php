@@ -59,4 +59,3 @@
 
         return $posts_list;
     }
-?>
