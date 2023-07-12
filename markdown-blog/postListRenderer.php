@@ -2,7 +2,8 @@
     require_once 'postRenderer.php';
 
     $posts = getPostsList();
-    foreach ($posts as $post) {
+    $posts = array_reverse($posts, true);
+    foreach ($posts as $key => $post) {
         $titleAndSummary = getFirstLines($post['markdown'], 3);
         $titleAndSummary = addTitleHref($titleAndSummary, $post['slug']);
 ?>

@@ -1861,20 +1861,11 @@ class Parsedown
     protected function sanitiseElement(array $Element)
     {
         static $goodAttribute = '/^[a-zA-Z0-9][a-zA-Z0-9-_]*+$/';
-        static $safeUrlNameToAtt  = array(
-            'a'   => 'href',
-            'img' => 'src',
-        );
 
         if ( ! isset($Element['name']))
         {
             unset($Element['attributes']);
             return $Element;
-        }
-
-        if (isset($safeUrlNameToAtt[$Element['name']]))
-        {
-            $Element = $this->filterUnsafeUrlInAttribute($Element, $safeUrlNameToAtt[$Element['name']]);
         }
 
         if ( ! empty($Element['attributes']))
@@ -1897,17 +1888,20 @@ class Parsedown
         return $Element;
     }
 
-    protected function filterUnsafeUrlInAttribute(array $Element, $attribute)
+    protected function filterUnsafeUrlInAttribute(array $Element, $attributes)
     {
-        foreach ($this->safeLinksWhitelist as $scheme)
+        foreach ($attributes as $attribute)
         {
-            if (self::striAtStart($Element['attributes'][$attribute], $scheme))
+            foreach ($this->safeLinksWhitelist as $scheme)
             {
-                return $Element;
+                if (self::striAtStart($Element['attributes'][$attribute], $scheme))
+                {
+                    return $Element;
+                }
             }
-        }
 
-        $Element['attributes'][$attribute] = str_replace(':', '%3A', $Element['attributes'][$attribute]);
+            $Element['attributes'][$attribute] = str_replace(':', '%3A', $Element['attributes'][$attribute]);
+	}
 
         return $Element;
     }
@@ -1990,5 +1984,8 @@ class Parsedown
                    'sup', 'ruby',
                    'var', 'span',
                    'wbr', 'time',
+
+	'figure',
+	'figcaption'
     );
 }
