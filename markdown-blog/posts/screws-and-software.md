@@ -1,6 +1,6 @@
-# What can metal screws teach us about coding?
+# Screws and Software 
 
-<byline />
+What can metal screws teach us about coding?
 
 When screws are being made, they undergo rigorous bending and rolling. This is often known as working the metal. Once fully wrought, these metal pellets are fired in an oven, which might seem strange at first. After all, why take something after it’s been shaped and soften it up by heating?
 
