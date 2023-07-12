@@ -25,7 +25,7 @@ This is not so different from what happens to software as we work on it. Exertin
 
 are easily introduced, increasing obstacles and decreasing project velocity. You could even think of this like laundry or dishes accumulating in the home; a bit is fine, but too much and everything becomes unnavigable.
 
-If we can add even a low-effort refactor phase in our development cycle, we can consistently cause these sticking points to be relaxed, making our next iteration faster and more effective. The next time you are planning a project, I would recommend to try budgeting 20% of time to performing refactors and micro-rewrites, and see how the project velocity responds.
+If we can add even a low-effort refactor phase in our development cycle, we can consistently cause these sticking points to be relaxed, making our next iteration faster and more effective. The next time you are planning a project, I would recommend to try budgeting 15% of time to performing refactors and micro-rewrites, and see how the project velocity responds.
 
 For more insights about Software Development Lifecycle (SDLC) or thoughts about tech and business, please subscribe via [RSS](http://blog.quinefoundation.com/rss.xml), or you can [find us on LinkedIn](https://www.linkedin.com/company/quine-foundation).
 
