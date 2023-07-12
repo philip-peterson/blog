@@ -18,8 +18,12 @@
 
 	</p>
 	<p>
-		All posts on this blog are authored by Philip Peterson, creator of the QUINE Foundation. To
-		hire him for software work or otherwise, please <a href="https://www.linkedin.com/in/philip-peterson-12b61953/">reach out on LinkedIn</a>.
+		All posts on this blog are authored by Philip Peterson, creator of the QUINE Foundation. You
+
+can <a href="https://www.linkedin.com/company/quine-foundation">follow us on LinkedIn</a>.
+
+<!-- To
+		hire him for software work or otherwise, please <a href="https://www.linkedin.com/in/philip-peterson-12b61953/">reach out on LinkedIn</a>. -->
 	</p>
 
 <figure>

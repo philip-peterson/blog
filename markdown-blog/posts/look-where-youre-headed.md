@@ -14,4 +14,4 @@ This insight is relevant to the workplace. If we know where we are going, we wil
 
 And for managers, if your reports cannot be given any time specifically to attaining a goal, just having them know the direction alone, and knowing your team's goals, can get your organization closer to achieving them.
 
-Follow this blog for more technology insights in business through [RSS](http://blog.quinefoundation.com/rss.xml).
+Follow this blog for more technology insights in business through [RSS](http://blog.quinefoundation.com/rss.xml), or you can [find us on LinkedIn](https://www.linkedin.com/company/quine-foundation).
