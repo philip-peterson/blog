@@ -1,4 +1,4 @@
-# Screws and Software 
+# Screwing up Software
 
 What can metal screws teach us about coding?
 
@@ -10,7 +10,7 @@ When screws are being made, they undergo rigorous bending and rolling. This is o
 
 Well, the process of forming the screws<sup>1</sup>, while necessary, introduces microscopic regions of high torque, high compression, and high rarefaction. These stresses and imperfections make the screws problematic to work with, since they can cause the fasteners to break prematurely, leading to issues or even injury. You wouldn’t want to build a building with these overworked screws.
 
-Luckily, there is a solution: heat. Since metal is in many ways a kind of crystal, the increased motion of the atoms with heat allows the metal to recrystallize. Regions of high stress and high internal torque are allowed to reduce and even disappear. (This is one of the rare cases in life where two wrongs can make a right.) Once the screws have been heated, they are returned to normal temperature, and are signficiantly stronger than before. Now, they are ready to be used in projects.
+Luckily, there is a solution: heat. Since metal is in many ways a kind of crystal, the increased motion of the atoms with heat allows the metal to recrystallize. Regions of high stress and high internal torque are allowed to reduce and even disappear. (This is one of the rare cases in life where two wrongs can make a right.) Once the screws have been heated, they are returned to normal temperature, and are significantly stronger than before. Now, they are ready to be used in projects.
 
 <figure><a href="https://en.wikipedia.org/wiki/Recovery_(metallurgy)#Process"><img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Polygonization_animation.gif" alt="Image illustrating that several opposite defects may join to cancel each other out in a metal grain structure." /></a>
 <figcaption>When two opposite dislocations are encouraged to meet up, they cancel out.</figcaption>
