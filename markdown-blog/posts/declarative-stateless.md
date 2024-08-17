@@ -16,4 +16,6 @@ nixos-rebuild switch --flake .#nixos --verbose --show-trace
 
 NixOS has finally allowed QUINE Foundation and QUINE Global to escape the ever-creeping forces of entropy and bitrot. We declare victory, as the blog.quinefoundation.com domain rises out of the ashes and into the realm of serving requests.
 
+We also have a [new logo](http://blog.quinefoundation.com/static/quine_global_logo.png).
+
 If you believe in self-hosted solutions to escape broader control, follow us on [RSS](http://blog.quinefoundation.com/rss.xml). You can also [find or even message us on LinkedIn](https://www.linkedin.com/company/quine-foundation).
