@@ -7,6 +7,10 @@
         $titleAndSummary = getFirstLines($post['markdown'], 3);
         $titleAndSummary = addTitleHref($titleAndSummary, $post['slug']);
 ?>
+    <div>
+	<br />
+	&#11003;
+    </div>
     <div class="blog-post">
         <?php echo renderMarkdown($titleAndSummary); ?>
         <a href="/post/<?php echo $post['slug'] ?>">Read post</a>

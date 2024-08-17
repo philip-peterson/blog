@@ -7,7 +7,13 @@
 </head>
 <body>
     <div class="blog">
-	All posts by the QUINE Foundation...
+	<div>
+		<img src="/static/quine_global_logo.png" height="80" />
+		<div style="margin-left: 4px; margin-top: 10px;">
+			All posts by <strong>the QUINE Foundation</strong>:
+		</div>
+	</div>
+
         <?php include 'postListRenderer.php'; ?>
     </div>
 	<?php include('footer.php'); ?>
