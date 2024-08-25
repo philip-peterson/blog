@@ -11,7 +11,7 @@ There is also Tvix, which is a rewrite of Nix (in Rust, if that matters). Tvix m
 The overall architecture includes a system daemon, pullomatic, to be running and refreshing checked-out Git repositories. By name, this makes a pull-based deployment model. Since the server is essentially stateless, any disaster will be easily recovered from with a simple
 
 ```
-nixos-rebuild switch --flake .#nixos --verbose --show-trace
+nix --extra-experimental-features flakes --extra-experimental-features nix-command run --debug github:numtide/nixos-anywhere --verbose -- --flake .#nixos root@host.name.here.com
 ```
 
 NixOS has finally allowed QUINE Foundation and QUINE Global to escape the ever-creeping forces of entropy and bitrot. We declare victory, as the blog.quinefoundation.com domain rises out of the ashes and into the realm of serving requests.
